@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/todo.css">
+    <title>TODO Lista</title>
+</head>
+
+<body>
+
+    <div id="myDIV" class="header">
+        <div class="card">
+            <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Kristina Todorovic</b></h4>
+                <p>Buduci IT-jevac</p>
+            </div>
+        </div>
+
+        <h2>ToDo Lista</h2>
+        <form action="#">
+            <input type="text" id="myInput" placeholder="Naslov...">
+            <button type="submit" onclick="dodajStavku()" class="addBtn">Dodaj</button>
+        </form>
+    </div>
+    <ul id="myUL"></ul>
+
+    <script src="js/todo.js"></script>
+</body>
+
+</html>
